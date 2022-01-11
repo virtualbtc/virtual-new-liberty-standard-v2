@@ -50,10 +50,11 @@ contract VNLSSellOrderBook is IVNLSSellOrderBook {
         vbtc.transfer(msg.sender, amount);
         order.amount -= amount;
         order.price -= msg.value;
+        address seller = order.seller;
         if (order.amount == 0) {
             remove(orderId);
         }
-        payable(order.seller).transfer(msg.value);
+        payable(seller).transfer(msg.value);
         emit Buy(orderId, msg.sender, amount);
     }
 
