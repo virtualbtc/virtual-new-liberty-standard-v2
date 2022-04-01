@@ -3,7 +3,7 @@ import hardhat from "hardhat";
 async function main() {
     console.log("deploy start")
 
-    const VBTCAddress = "0xfe6D468bB4DD530E0f5eE98b58e37e11DaAAaF31";
+    const VBTCAddress = "0x84e7ae4897b3847b67f212aff78bfbc5f700aa40";
 
     //const VNLSBuyOrderBook = await hardhat.ethers.getContractFactory("VNLSBuyOrderBook")
     //const buyOrderBook = await VNLSBuyOrderBook.deploy(VBTCAddress)

@@ -6,7 +6,7 @@ https://vnls.org/
 Contract Address
 ----------------
 - VNLSBuyOrderBook: 0x14e90440d54014B8A85ff9F25734B1f2c51d16cc
-- VNLSSellOrderBook: 0x18177A4Ee92E71A835df362acAb125232D1ee7f0
+- VNLSSellOrderBook: 0x079e1750AD6f7Aa6618CDeCBC39186FB7DbED925
 
 License
 -------
